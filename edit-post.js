@@ -1,0 +1,1 @@
+javascript:(function(){var usrid = location.href.slice(8, location.href.search('.tumblr'));window.open('https://www.tumblr.com/edit/'+location.href.replace('https://'+usrid+'.tumblr.com/post/', '').split(/\//)[0]+'/?redirect_to=/blog/'+usrid)})();
